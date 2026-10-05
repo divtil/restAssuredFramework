@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="RestAssuredFrameworkSuite">
-    <test name="API_Tests" thread-count="5" parallel="tests">
-        <classes>
-            <class name="Basics"/>
-        </classes>
-    </test>
-</suite>
