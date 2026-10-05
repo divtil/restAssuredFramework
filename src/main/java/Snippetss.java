@@ -35,7 +35,7 @@ static boolean isValid(String s){
                 stack.push(ch);
             }
 
-            // Closing brackets
+            // Closing bracket
             else {
                 if (stack.isEmpty()) {
                     return false;
